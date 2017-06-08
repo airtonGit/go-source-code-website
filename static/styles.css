@@ -17,7 +17,7 @@ a { color: #fff; }
 .code-comment-link { color: #7BA1B5; }
 .code-string-link { color: #E07D70 }
 .no-decoration { text-decoration: none; }
-.mts { margin-top: 25px; }
+.mts { margin-top: 25px; } /* margin top small */
 .mls { margin-left: 25px; } /* margin left small */
 .mrm { margin-right: 50px; } /* margin right small */
 .center { text-align: center; }

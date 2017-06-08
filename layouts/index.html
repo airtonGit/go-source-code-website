@@ -1,37 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Go Build It!</title>
-    <!--
-
-       ______         ____        _ __    __   ______  __
-      / ____/___     / __ )__  __(_) /___/ /  /  _/ /_/ /
-     / / __/ __ \   / __  / / / / / / __  /   / // __/ /
-    / /_/ / /_/ /  / /_/ / /_/ / / / /_/ /  _/ // /_/_/
-    \____/\____/  /_____/\__,_/_/_/\__,_/  /___/\__(_)
-
-
-    Copyright 2017, Jason Keene and Eno Compton, All Rights Reserved.
-
-    -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css">
-    <link rel="stylesheet" href="/styles.css">
-  </head>
-  <body>
-    <aside>
-      <a href="https://github.com/gobuildit/gobuildit.github.io">
-        <img
-          alt="Fork me on GitHub"
-          style="position: absolute; top: 0; right: 0; border: 0;"
-          src="https://camo.githubusercontent.com/652c5b9acfaddf3a9c326fa6bde407b87f7be0f4/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f6f72616e67655f6666373630302e706e67"
-          data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png">
-      </a>
-    </aside>
-
-    <section>
-      <pre class="mls">
-        <code>
+{{ partial "header.html" . }}
+<section>
+  <pre class="mls">
+    <code>
 <span class="code-comment">// Go Build It!</span>
 <span class="code-comment">// Screencasts on Building from Scratch in <a class="code-comment-link" href="https://golang.org/">Go</a></span>
 <span class="code-comment">// By <a class="code-comment-link" href="https://github.com/jasonkeene" title="GitHub">@jasonkeene</a> and <a class="code-comment-link" href="https://github.com/enocom" title="GitHub">@enocom</a>.</span>
@@ -46,22 +16,8 @@
     fmt.Println(<span class="code-string">"<a href="#" class="code-string-link">03. Building a Cache</a>"</span>)
     <span class="cursor">&nbsp;</span>
 }
-        </code>
-      </pre>
-    </section>
+    </code>
+  </pre>
+</section>
 
-    <footer class="pin-bottom">
-      <div class="center nowrap pos-relative z-idx-low pull-down">
-        <!-- Gophers are courtesy of https://gopherize.me -->
-        <a href="https://github.com/jasonkeene">
-          <img class="mrm" src="/gopher-jason-small.png" alt="Gopher" title="@jasonkeene">
-        </a>
-        <a href="https://github.com/enocom">
-          <img src="/gopher-eno-small.png" alt="Gopher" title="@enocom">
-        </a>
-      </div>
-
-      <div class="status-bar pos-relative z-idx-high"></div>
-    </footer>
-  </body>
-</html>
+{{ partial "gopher_footer.html" .}}
