@@ -1,8 +1,14 @@
+body, html {
+  height: 100%;
+}
 body {
   min-width: 960px;
   background: #26292C;
   color: #FFF;
   font-family: monospace;
+
+  display: flex;
+  flex-direction: column;
 }
 pre { margin: 0; }
 code { font-size: 1.2em; }
@@ -26,7 +32,15 @@ a { color: #fff; }
 .push-down { margin-bottom: -10px; }
 .pull-up { margin-top: -50px; }
 .pull-down { margin-bottom: -10px; }
-.pin-bottom { position: fixed; bottom: 0; left: 0; right: 0; }
+.pin-bottom {
+  flex-grow: 2;
+
+  display: flex;
+  flex-direction: column;
+}
+.flex-expand {
+  flex-grow: 2;
+}
 .pos-relative { position: relative; }
 .z-idx-high { z-index: 100; }
 .z-idx-low { z-index: 1; }
