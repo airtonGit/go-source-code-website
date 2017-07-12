@@ -32,6 +32,9 @@ a { color: #fff; }
 .push-down { margin-bottom: -10px; }
 .pull-up { margin-top: -50px; }
 .pull-down { margin-bottom: -10px; }
+.pull-down a {
+  text-decoration: none;
+}
 .pin-bottom {
   flex-grow: 2;
 
